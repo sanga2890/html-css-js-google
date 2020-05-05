@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#viewport {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#header-left>ul>li, #header-right>ul>li{
+    display: inline-block;
+    padding: 20px 5px 0 5px;
+}
+
+header a{
+    text-decoration: none;
+    color: #111;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 272px;
+    height: 92px;
+    margin-top: 130px;
+}
+
+main input {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
