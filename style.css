@@ -112,7 +112,7 @@ main #search-bar:hover {
     overflow: auto;
     background-color: #fff;
     transition: height 0.3s ease-in-out 0s;
-    box-shadow: 0px 0px 5px 1px rgba(115,113,115,1);
+    box-shadow: 0px 0px 5px 1px rgba(115,113,115,0.5);
 
 }
 
