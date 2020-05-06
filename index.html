@@ -10,8 +10,10 @@
         <title>Google</title>
     </head>
     <body>
+        <!-- dimensoni viewport adattabili a tutte le risoluzioni dei vari schermi -->
 <div id="viewport">
     <header>
+        <!-- heater diviso in sinistra e destra -->
         <div id="header-left">
             <ul>
                 <li><a href="#">Chi siamo</a></li>
@@ -23,9 +25,12 @@
                 <li><a href="#">Gmail</a></li>
                 <li><a href="#">Immagini</a></li>
                 <li>
+                    <!-- icona a cui aggancio il click in .js per aprire il menu delle app in dropdown -->
                     <a href="#"><i class="fas fa-th"></i></a>
+                    <!-- dropdown menu con display none per nasconderlo  -->
                     <div class="dropdown">
                         <div id="dropdown-container">
+                            <!-- divido il dropdown in varie caselle della stessa dimensioni in cui inserisco logo dell'app e etichetta -->
                             <div class="app">
                                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Google_account_icon.svg/1200px-Google_account_icon.svg.png" alt="account">
                                 <p>Account</p>
@@ -83,18 +88,14 @@
                                 <p>Shopping</p>
                             </div>
                         </div>
-
-
-                        </div>
-
+                    </div>
                 </li>
-                <li><a href="#">Account</a></li>
+                <li><a class="signin" href="#">Account</a></li>
             </ul>
         </div>
     </header>
-
+    <!-- Inizio parte centrale della pagina -->
     <main>
-
         <img src="https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo home page">
         <div id="search-bar">
             <i class="fas fa-search"></i>
@@ -105,12 +106,13 @@
             <button type="button" name="button">Cerca con Google</button>
             <button type="button" name="button">Mi sento fortunato</button>
         </div>
+        <p>Google offerto in: <a href="#">English</a></p>
     </main>
 </div>
+<!-- Inizio piè di pagina -->
 <footer>
     <div id="footer-top">
         <p><a href="#">Italia</a></p>
-
     </div>
     <div id="footer-bottom">
         <ul id="bottom-left">
@@ -123,9 +125,9 @@
             <li><a href="#">Termini</a></li>
             <li><a href="#">Impostazioni</a></li>
         </ul>
-
     </div>
 </footer>
+<!-- Inserisco script per il collegamento al foglio .js -->
 <script src="main.js" charset="utf-8"></script>
     </body>
 </html>
