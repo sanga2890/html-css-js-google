@@ -67,11 +67,11 @@ main #search-bar {
 .dropdown {
     position: absolute;
     list-style-type: none;
-    width: 300px;
+    width: 350px;
     right: 20px;
     border: 1px solid black;
     display: none;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     height: 450px;
     overflow: auto;
@@ -96,10 +96,7 @@ main #search-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.app p{
-    text-align: center;
+    margin: 10px;
 
 }
 
@@ -110,7 +107,7 @@ main #search-bar {
 
 #dropdown-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
